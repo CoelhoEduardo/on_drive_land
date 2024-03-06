@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import logo from "/public/images/logo.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export const NavBar = () => {
-  function classNames(...classes) {
+  function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(" ");
   }
 
@@ -13,7 +13,10 @@ export const NavBar = () => {
     window.scrollY >= 90 ? setColor(true) : setColor(false);
   };
 
-  window.addEventListener("scroll", changeColor);
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+  });
+
   return (
     <nav
       className={classNames(
