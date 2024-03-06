@@ -21,7 +21,7 @@ export const NavBar = () => {
     <nav
       className={classNames(
         color ? "bg-white" : "bg-transparent",
-        "fixed left-0 z-10 w-full backdrop-blur-sm top-0",
+        "fixed left-0 z-10 w-full backdrop-blur-md top-0",
       )}
     >
       <div className="p-5 flex gap-5 ml-16">
@@ -30,7 +30,7 @@ export const NavBar = () => {
             <Image src={logo} alt="we drive logo" />
           </a>
         </div>
-        <div className="gap-5 mt-3 ml-5 md:flex hidden">
+        <div className="gap-16 mt-3 ml-5 md:flex hidden">
           <a href="#passengers">Passageiros</a>
           <a href="#drives">Motoristas</a>
           <a href="#about_us">Sobre nós</a>

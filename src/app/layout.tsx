@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "On Drive",
-  description: "Aplicação de mobilidade",
+  title: "We Drive",
+  description: "Mobilidade Exclusiva",
 };
 
 export default function RootLayout({
