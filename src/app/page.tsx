@@ -6,7 +6,7 @@ import AboutUs from "./components/aboutus";
 
 export default function Home() {
   return (
-    <main className="p-0">
+    <main className="p-0 relative">
       <NavBar />
       <section id="home">
         <Wehead />
@@ -26,11 +26,12 @@ export default function Home() {
           <AboutUs />
         </div>
       </section>
-      <footer className="w-full h-28 flex bg-black border border-black mt-6 justify-between gap-4 p-5 ">
-        <div className="text-white text-base text-end flex">
+      <footer className="flex flex-row flex-wrap items-center mt-12 justify-center w-full py-6 text-center border-t gap-y-6 gap-x-12 border-blue-gray-50 bg-black md:justify-between">
+        <div className="text-white text-sm">
+          <div>We Drive - Mobilidade inteligente</div>
           <p>Contato: admin@wedrivebrasil.com.br</p>
         </div>
-        <div className="text-white text-base text-end flex">
+        <div className="text-white text-sm text-end flex">
           <p>
             We Drive Brasil Ltda | On Drive - Locação de Veiculos Ltda <br />
             CNPJ: 54.088.912/0001-96

@@ -4,8 +4,8 @@ import inter from "/public/images/inter.jpg";
 
 const Wehead: React.FC = () => {
   return (
-    <div className="container">
-      <div className="bg-[url(/images/bg_1.jpg)] bg-no-repeat shrink-0 w-screen bg-cover h-screen object-fill flex-grow-0">
+    <div className="container relative">
+      <div className="bg-[url(/images/bg_1.jpg)] bg-no-repeat shrink-0 w-screen bg-cover h-screen object-fill flex-grow-0 static">
         <div className="absolute md:left-48 left-12">
           <div className="rounded-lg bg-transparent backdrop-blur-lg h-96 w-80 md:w-[33rem] md:h-[32rem] border-4 absolute top-72 left-1 border-black" />
           <div className="border rounded-lg absolute h-96 w-80 md:w-[33rem] md:h-[32rem] bg-white top-64 left-10 shadow-xl">
