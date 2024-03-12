@@ -5,37 +5,18 @@ import inter from "/public/images/inter.jpg";
 const Wehead: React.FC = () => {
   return (
     <div className="container">
-      <div className="hidden bg-[url(/images/bg_1.jpg)] bg-no-repeat bg-cover md:block w-screen h-screen object-cover flex-grow-0">
-        <div className="absolute left-12 md:left-48">
-          <div className="rounded-lg bg-transparent backdrop-blur-lg h-72 w-52 md:w-[33rem] md:h-[32rem] border-4 absolute top-72 left-1 border-black" />
-          <div className="border rounded-lg absolute h-72 w-52 md:w-[33rem] md:h-[32rem] bg-white top-64 left-10 shadow-xl">
+      <div className="bg-[url(/images/bg_1.jpg)] bg-no-repeat shrink-0 w-screen bg-cover h-screen object-fill flex-grow-0">
+        <div className="absolute md:left-48 left-12">
+          <div className="rounded-lg bg-transparent backdrop-blur-lg h-96 w-80 md:w-[33rem] md:h-[32rem] border-4 absolute top-72 left-1 border-black" />
+          <div className="border rounded-lg absolute h-96 w-80 md:w-[33rem] md:h-[32rem] bg-white top-64 left-10 shadow-xl">
             <Image src={inter} alt="roads maps" className="rounded-lg" fill />
-            <div className="absolute top-20 left-16 p-2">
-              <h1 className="font-bold text-lg md:text-4xl">
+            <div className="absolute md:top-20 md:left-16 p-5 top-16">
+              <h1 className="font-bold md:text-4xl text-2xl">
                 Revolucione o jeito <br /> de andar pelo seu <br /> condomínio
               </h1>
-              <p className="mt-12 text-sm md:text-xl">
+              <p className="md:mt-12 mt-3 md:text-xl text-sm">
                 Com a <span className="font-bold">We Drive</span>, você pode se
                 locomover <br /> dentro de condomínios residenciais sem se
-                <br />
-                preocupar com estacionamento ou <br /> distâncias longas.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="w-screen md:hidden bg-[url(/images/bg_1.jpg)] bg-cover bg-no-repeat  h-screen top-0 left-0 right-0 z-10 object-cover flex-grow-0">
-        <div className="absolute left-12 md:left-48">
-          <div className="rounded-lg bg-transparent backdrop-blur-lg h-72 w-52 md:w-[26rem] md:h-[30rem] border-4 absolute top-72 left-1 border-black" />
-          <div className="border rounded-lg absolute h-72 w-52 md:w-[26rem] md:h-[30rem] bg-white top-64 left-10 shadow-xl">
-            <Image src={inter} alt="roads maps" className="rounded-lg" fill />
-            <div className="absolute p-5">
-              <h1 className="font-bold text-lg md:text-3xl">
-                Revolucione o jeito <br /> de andar pelo seu <br /> condomínio
-              </h1>
-              <p className="mt-3 text-sm md:text-lg">
-                Com a <span className="font-bold">We Drive</span>, você pode se
-                locomover <br /> dentro de condomínios residenciais sem se{" "}
                 <br />
                 preocupar com estacionamento ou <br /> distâncias longas.
               </p>

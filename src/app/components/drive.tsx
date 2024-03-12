@@ -4,7 +4,7 @@ import men_drive from "/public/images/men_drive.jpg";
 
 const Drive: React.FC = () => {
   return (
-    <div className="h-full md:w-1/2 w-full bg-transparent bg-[url('/images/inter.jpg')] backdrop-blur-sm border mt-3 shadow-2xl">
+    <div className="h-full md:w-1/2 w-full bg-[url('/images/inter.jpg')] bg-no-repeat bg-cover backdrop-blur-sm border mt-3 shadow-2xl">
       <div className="absolute right-32 top-32">
         <div className="flex">
           <div className="bg-black rounded-full w-4 h-4 absolute mt-0.5" />

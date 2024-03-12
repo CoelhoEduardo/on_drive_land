@@ -26,6 +26,17 @@ export default function Home() {
           <AboutUs />
         </div>
       </section>
+      <footer className="w-full h-28 flex bg-black border border-black mt-6 justify-between gap-4 p-5 ">
+        <div className="text-white text-base text-end flex">
+          <p>Contato: admin@wedrivebrasil.com.br</p>
+        </div>
+        <div className="text-white text-base text-end flex">
+          <p>
+            We Drive Brasil Ltda | On Drive - Locação de Veiculos Ltda <br />
+            CNPJ: 54.088.912/0001-96
+          </p>
+        </div>
+      </footer>
     </main>
   );
 }

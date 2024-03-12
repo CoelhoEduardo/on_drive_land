@@ -4,7 +4,7 @@ import men_phone from "/public/images/men_phone.png";
 
 const AboutUs: React.FC = () => {
   return (
-    <div className="h-full w-full mt-5 md:w-1/2 bg-transparent bg-[url(/images/inter.jpg)]  backdrop-blur-sm border shadow-2xl">
+    <div className="h-full w-full mt-5 md:w-1/2 bg-[url(/images/inter.jpg)] bg-no-repeat bg-cover backdrop-blur-lg border shadow-2xl">
       <div className="absolute left-32 top-32">
         <div className="flex">
           <div className="bg-black rounded-full w-3 h-3 absolute mt-1 " />
@@ -27,7 +27,7 @@ const AboutUs: React.FC = () => {
           <Image src={men_phone} alt="men with a phone" />
         </div>
       </div>
-      <div className="absolute md:bottom-[21rem] md:left-5 bottom-20 left-5">
+      <div className="absolute md:bottom-[15rem] md:left-5 bottom-20 left-5">
         <div className="shadow-2xl bg-white rounded-lg shrink h-72 w-80 md:h-96 md:w-[30rem] p-3">
           <div className="flex justify-start ml-12 mt-3 md:mt-12">
             <h1 className="font-bold text-2xl md:text-4xl">
@@ -41,7 +41,7 @@ const AboutUs: React.FC = () => {
               dentro do seu condomínio simples e eficiente.
             </h2>
           </div>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );

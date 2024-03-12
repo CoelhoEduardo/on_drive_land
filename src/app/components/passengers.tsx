@@ -4,7 +4,7 @@ import React from "react";
 
 const Passegers: React.FC = () => {
   return (
-    <div className="h-full w-full md:w-1/2 bg-transparent bg-[url('/images/inter.jpg')]  backdrop-blur-sm border shadow-2xl">
+    <div className="h-full w-full md:w-1/2 bg-[url('/images/inter.jpg')] bg-no-repeat bg-cover  backdrop-blur-sm border shadow-2xl shrink-0">
       <div className="absolute left-32 top-32">
         <div className="flex">
           <div className="bg-black rounded-full w-5 h-5 absolute" />
@@ -32,7 +32,7 @@ const Passegers: React.FC = () => {
           />
         </div>
       </div>
-      <div className="absolute bottom-20 left-2 md:bottom-96 md:left-20">
+      <div className="absolute bottom-20 left-2 md:bottom-64 md:left-20 shrink-0">
         <div className="shadow-2xl bg-white rounded-lg shrink w-80 h-72 md:h-96 md:w-[30rem] p-3">
           <div className="flex justify-start ml-12 mt-3 md:mt-12">
             <h1 className="font-bold text-2xl md:text-4xl">
