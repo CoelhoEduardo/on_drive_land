@@ -8,13 +8,13 @@ const AboutUs: React.FC<Props> = (props) => {
   return (
     <section
       id={props.id}
-      className={`flex flex-col bg-gray-900 py-20 text-3xl md:text-4xl p-5`}
+      className={`flex flex-col bg-gray-900 py-20 text-3xl md:text-4xl`}
     >
-      <div className="mx-auto px-17 font-sans justify-center md:mt-16 mt-96">
+      <div className="mx-auto px-17 font-sans justify-center md:mt-16">
         <h2 className="text-amber-400 text-center">
           Aplicativo de transporte feito para você
         </h2>
-        <p className="leading-tight max-w-3xl text-white text-3xl tracking-tight mt-6">
+        <p className="leading-tight text-center max-w-3xl text-white text-3xl tracking-tight mt-6">
           <strong>
             Iremos melhorar a sua qualidade de vida através da mobilidade
             inteligente.{" "}

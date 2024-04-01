@@ -20,8 +20,8 @@ export const NavBar = () => {
   return (
     <nav
       className={classNames(
-        color ? "bg-white" : "bg-transparent",
-        "fixed left-0 z-10 w-full backdrop-blur-md top-0",
+        color ? "bg-white" : "bg-white",
+        "absolute left-0 z-10 w-full backdrop-blur-md top-0",
       )}
     >
       <div className="p-5 flex gap-5 ml-16">
