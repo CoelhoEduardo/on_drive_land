@@ -2,12 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "./components/navbar";
-
-const inter = Inter({ subsets: ["latin"], weight: "600" });
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
-  title: "We Drive - O Aplicativo de transporte do seu condomínio",
-  description: "Aplicativo de transporte do seu condomínio",
+  title: "We Drive - Motorista Particular",
+  description: "Motorista particular por agendamento",
 };
 
 export default function RootLayout({
@@ -17,11 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={"bg-gray-900"}>
         <NavBar />
-        <div className="bg-gray-900 flex flex-col h-full items-center">
-          {children}
-        </div>
+        <div className="flex flex-col h-full items-center">{children}</div>
+        <Footer />
       </body>
     </html>
   );
