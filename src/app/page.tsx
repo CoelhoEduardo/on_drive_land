@@ -1,6 +1,5 @@
 import Wehead from "./components/wehead";
 import Passengers from "./components/passengers";
-import { NavBar } from "./components/navbar";
 import Drive from "./components/drive";
 import AboutUs from "./components/aboutus";
 
@@ -12,8 +11,8 @@ export default function Home() {
           <Wehead />
           <div className="flex flex-col h-full items-center">
             <AboutUs id="about_us" />
-            <Passengers />
-            <Drive />
+            <Passengers nav_id="product" />
+            <Drive nav_id="faq" />
           </div>
         </div>
       </div>

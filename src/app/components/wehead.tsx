@@ -21,8 +21,8 @@ const Wehead: React.FC = () => {
         >
           <h1 className="hidden">We Drive</h1>
           <h2 className="text-xl xl:text-4xl tracking-tight text-center">
-            Motorista <span className="font-bold">particular</span> e{" "}
-            <span className="font-bold">seguro</span>.
+            Seu motorista <span className="font-bold">particular</span> por uma{" "}
+            <span className="font-bold">fração de custo</span>.
           </h2>
           <div className="rounded-md flex hover:bg-amber-400 hover:text-gray-900 md:text-base text-sm h-8 w-18 justify-center items-center md:h-12 md:w-32 bg-gray-900 mt-6">
             <a href="https://linktr.ee/wedrivebrasil" target="_blank">

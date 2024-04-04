@@ -1,9 +1,13 @@
 import React from "react";
 import Collapse from "./ui/collapse";
 
-const Drive: React.FC = () => {
+type Props = {
+  nav_id: string;
+};
+
+const Drive: React.FC<Props> = (props) => {
   return (
-    <section className={`flex flex-col text-sm md:text-2xl`}>
+    <section id={props.nav_id} className={`flex flex-col text-sm md:text-2xl`}>
       <div>
         <div className="justify-center flex mt-3 mb-5">
           <h3 className="text-amber-400 text-2xl md:text-4xl">

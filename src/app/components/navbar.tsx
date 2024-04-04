@@ -31,9 +31,10 @@ export const NavBar = () => {
           </a>
         </div>
         <div className="gap-16 mt-3 ml-5 md:flex hidden">
-          <a href="#passengers">Passageiros</a>
-          <a href="#drives">Motoristas</a>
           <a href="#about_us">Sobre nós</a>
+          <a href="#product">Serviços</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://linktr.ee/wedrivebrasil">Contrate</a>
         </div>
       </div>
       <div

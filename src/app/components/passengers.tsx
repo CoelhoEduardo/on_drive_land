@@ -1,17 +1,23 @@
 import Image from "next/image";
-import photo from "/public/images/photo1.jpg";
 import photo2 from "/public/images/photo_2.jpg";
 import photo3 from "/public/images/photo3.jpg";
 import React from "react";
 
-const Passegers: React.FC = () => {
+type Props = {
+  nav_id: string;
+};
+
+const Passegers: React.FC<Props> = (props) => {
   return (
-    <section className={`flex flex-col shrink-0 text-3xl md:text-4xl mt-3 p-2`}>
+    <section
+      id={props.nav_id}
+      className={`flex flex-col shrink-0 text-3xl md:text-4xl mt-3 p-2`}
+    >
       <div className="flex md:flex-row flex-col px-12 md:px-56 gap-12 text-white mt-10 items-center justify-center">
         <Image
           src={photo3}
           alt="We drive background 1"
-          className="rounded-full md:rounded-none w-32 h-32 md:w-64 md:h-64 md:object-contain object-cover"
+          className="rounded-full w-32 h-32 md:w-52 md:h-52 object-fill"
         />
         <p className="text-xl md:text-2xl">
           Rodamos com veículos de{" "}
@@ -35,7 +41,7 @@ const Passegers: React.FC = () => {
           src={photo2}
           alt="We drive background 1"
           priority
-          className="rounded-full md:rounded-none object-cover w-32 h-32 md:w-64 md:h-64 md:object-contain"
+          className="rounded-full object-fill w-32 h-32 md:w-52 md:h-52 "
         />
       </div>
     </section>
