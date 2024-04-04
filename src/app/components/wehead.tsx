@@ -13,7 +13,7 @@ const Wehead: React.FC = () => {
           className="w-full"
         />
       </div>
-      <div className="absolute bottom-2 w-full md:inset-x-1/3 md:bottom-[15rem] md:w-fit md:translate-y-1/2">
+      <div className="absolute bottom-2 w-full md:inset-x-1/3 md:bottom-[12rem] md:w-fit md:translate-y-1/2">
         <div
           className="text-stone-200 
         drop-shadow-[0_7px_3px_rgba(0,0,0,0.4)] 
