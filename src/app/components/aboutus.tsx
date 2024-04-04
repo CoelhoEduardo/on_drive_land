@@ -1,30 +1,22 @@
 import React from "react";
 import { IoCarSportOutline } from "react-icons/io5";
 import { GiCaptainHatProfile, GiSmartphone } from "react-icons/gi";
+import { BsHeadset } from "react-icons/bs";
 
 type Props = { id: string };
 
 const AboutUs: React.FC<Props> = (props) => {
   return (
-    <section
-      id={props.id}
-      className={`flex flex-col bg-gray-900 py-20 text-3xl md:text-4xl p-5`}
-    >
-      <div className="mx-auto px-17 font-sans justify-center md:mt-16 mt-96">
-        <h2 className="text-amber-400 text-center">
-          Aplicativo de transporte feito para você
-        </h2>
-        <p className="leading-tight max-w-3xl text-white text-3xl tracking-tight mt-6">
-          <strong>
-            Iremos melhorar a sua qualidade de vida através da mobilidade
-            inteligente.{" "}
-          </strong>
-          Oferecemos o serviço com tecnologia de ponta, porém sem lançar mão do
-          aspecto humano, trazendo a melhor alternativa de transporte para o seu
-          dia-a-dia ou para o seu negócio.
-        </p>
-      </div>
-      <div className="relative flex-col md:flex-row flex justify-center items-center gap-12 mt-12">
+    <section id={props.id} className={`flex flex-col text-3xl md:text-4xl`}>
+      <h2 className="text-amber-400 text-center">Conheça a We Drive</h2>
+      <div className="relative flex-col md:flex-row flex justify-center items-center gap-12 mt-5">
+        <div className="flex flex-col items-center">
+          <GiCaptainHatProfile className="text-amber-400" />
+          <p className="text-base text-white text-center">
+            Motorista fixo, treinado e capacitado <br /> para melhor atendê-lo
+            diariamente.
+          </p>
+        </div>
         <div className="flex flex-col items-center">
           <IoCarSportOutline className="text-amber-400" />
           <p className="text-base text-white text-center">
@@ -32,16 +24,21 @@ const AboutUs: React.FC<Props> = (props) => {
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <GiSmartphone className="text-amber-400" />
+          <BsHeadset className="text-amber-400" />
           <p className="text-base text-white text-center">
-            Aplicativo de fácil uso e <br /> com suporte 24h.
+            Suporte totalmente humano <br />e agendamento flexível.
           </p>
         </div>
-        <div className="flex flex-col items-center">
-          <GiCaptainHatProfile className="text-amber-400" />
-          <p className="text-base text-white text-center">
-            Motoristas treinados e capacitados <br /> para melhor atendê-lo.
-          </p>
+      </div>
+      <div className="mx-auto px-17 p-5 flex flex-col items-center">
+        <h3 className="leading-tight max-w-3xl text-white text-center text-2xl tracking-tight mt-6">
+          Serviço de motorista particular por agendamento e pague apenas pela a
+          hora que usar.
+        </h3>
+        <div className="rounded-md flex hover:bg-gray-400 hover:text-white md:text-base text-sm h-8 w-18 justify-center items-center md:h-12 md:w-32 bg-amber-400 mt-6">
+          <a href="https://linktr.ee/wedrivebrasil" target="_blank">
+            Agende Aqui
+          </a>
         </div>
       </div>
     </section>
