@@ -1,26 +1,27 @@
 import Image from "next/image";
 import React from "react";
-import bg1 from "/public/images/background1.jpg";
+import header1 from "/public/images/header_desk.jpg";
 
 const Wehead: React.FC = () => {
   return (
     <header className="relative">
-      <div className="w-full h-full md:h-screen mt-20 md:mt-0">
+      <div className="w-full h-full mt-20 md:mt-0">
         <Image
-          src={bg1}
+          src={header1}
           priority
           alt="We drive background 1"
-          className="w-full h-full"
+          className="w-full"
         />
       </div>
-      <div className="absolute bottom-2 w-full md:inset-x-1/3 md:bottom-40 md:w-fit md:translate-y-1/2">
+      <div className="absolute bottom-2 w-full md:inset-x-1/3 md:bottom-[15rem] md:w-fit md:translate-y-1/2">
         <div
           className="text-stone-200 
         drop-shadow-[0_7px_3px_rgba(0,0,0,0.4)] 
         text-center flex items-center  flex-col w-full"
         >
-          <h1 className="text-2xl xl:text-4xl  tracking-tight text-center">
-            Seu motorista <span className="font-bold">particular</span> por uma{" "}
+          <h1 className="text-xl xl:text-4xl  tracking-tight text-center">
+            Seu motorista <span className="font-bold">particular</span>{" "}
+            <br className="md:hidden" /> por uma{" "}
             <span className="font-bold">fração de custo</span>.
           </h1>
           <div
