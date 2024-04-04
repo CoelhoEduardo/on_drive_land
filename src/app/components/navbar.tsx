@@ -20,8 +20,8 @@ export const NavBar = () => {
   return (
     <nav
       className={classNames(
-        color ? "bg-white" : "bg-white",
-        "absolute left-0 z-10 w-full backdrop-blur-md top-0",
+        color ? "bg-white" : "bg-white md:bg-transparent",
+        "fixed left-0 z-10 w-full backdrop-blur-md top-0",
       )}
     >
       <div className="p-5 flex gap-5 ml-16">
@@ -30,7 +30,7 @@ export const NavBar = () => {
             <Image src={logo} alt="we drive logo" />
           </a>
         </div>
-        <div className="gap-16 mt-3 ml-5 md:flex hidden">
+        <div className="gap-16 mt-3 ml-5 md:flex hidden font-semibold">
           <a href="#about_us">Sobre nós</a>
           <a href="#product">Serviços</a>
           <a href="#faq">FAQ</a>
@@ -39,7 +39,7 @@ export const NavBar = () => {
       </div>
       <div
         className={classNames(
-          color ? "border-black" : "border-white",
+          color ? "border-black" : "border-black",
           "border",
         )}
       />

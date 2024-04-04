@@ -7,24 +7,29 @@ type Props = { id: string };
 
 const AboutUs: React.FC<Props> = (props) => {
   return (
-    <section id={props.id} className={`flex flex-col text-3xl md:text-4xl`}>
-      <h2 className="text-amber-400 text-center">Conheça a We Drive</h2>
+    <section
+      id={props.id}
+      className={`flex flex-col text-3xl gap-4 md:text-4xl p-2`}
+    >
+      <h2 className="text-stone-200 font-semibold text-center">
+        Conheça a We Drive
+      </h2>
       <div className="relative flex-col md:flex-row flex justify-center items-center gap-12 mt-5">
         <div className="flex flex-col items-center">
-          <GiCaptainHatProfile className="text-amber-400" />
+          <GiCaptainHatProfile className="text-yellow-500" />
           <p className="text-base text-white text-center">
             Motorista fixo, treinado e capacitado <br /> para melhor atendê-lo
             diariamente.
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <IoCarSportOutline className="text-amber-400" />
+          <IoCarSportOutline className="text-yellow-500" />
           <p className="text-base text-white text-center">
             Carros novos e confortáveis <br /> com até 20.000km rodados.
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <BsHeadset className="text-amber-400" />
+          <BsHeadset className="text-yellow-500" />
           <p className="text-base text-white text-center">
             Suporte totalmente humano <br />e agendamento flexível.
           </p>
@@ -35,7 +40,10 @@ const AboutUs: React.FC<Props> = (props) => {
           Serviço de motorista particular por agendamento e pague apenas pela a
           hora que usar.
         </h3>
-        <div className="rounded-md flex hover:bg-gray-400 hover:text-white md:text-base text-sm h-8 w-18 justify-center items-center md:h-12 md:w-32 bg-amber-400 mt-6">
+        <div
+          className="rounded-md font-semibold flex hover:bg-yellow-500 hover:text-black md:text-base 
+          text-sm h-10 w-24 justify-center items-center md:h-12 md:w-32 bg-white mt-6"
+        >
           <a href="https://linktr.ee/wedrivebrasil" target="_blank">
             Agende Aqui
           </a>

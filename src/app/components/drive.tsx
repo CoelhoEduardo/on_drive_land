@@ -7,10 +7,13 @@ type Props = {
 
 const Drive: React.FC<Props> = (props) => {
   return (
-    <section id={props.nav_id} className={`flex flex-col text-sm md:text-2xl`}>
+    <section
+      id={props.nav_id}
+      className={`flex flex-col text-sm md:text-2xl mt-24`}
+    >
       <div>
         <div className="justify-center flex mt-3 mb-5">
-          <h3 className="text-amber-400 text-2xl md:text-4xl">
+          <h3 className="text-white font-semibold text-2xl md:text-4xl">
             Dúvidas frequentes
           </h3>
         </div>

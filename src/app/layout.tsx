@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "./components/navbar";
 import Footer from "./components/footer";
+import Wehead from "./components/wehead";
 
 export const metadata: Metadata = {
   title: "We Drive - Motorista Particular",
@@ -16,8 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"bg-gray-900"}>
+      <body className={"bg-stone-900"}>
         <NavBar />
+        <Wehead />
         <div className="flex flex-col h-full items-center">{children}</div>
         <Footer />
       </body>
