@@ -20,8 +20,9 @@ const Passegers: React.FC<Props> = (props) => {
       <div className="flex md:flex-row flex-col px-12 md:px-56 gap-12 text-white mt-10 items-center justify-center">
         <Image
           src={photo1}
-          alt="carro novo"
+          alt="carro novo para sempre atender nossos clientes"
           className="rounded-full w-32 h-32 md:w-64 md:h-64"
+          priority
         />
         <p className="text-xl md:text-2xl">
           Para sua maior <span className="text-yellow-500">segurança</span>,
@@ -51,6 +52,7 @@ const Passegers: React.FC<Props> = (props) => {
           src={photo3}
           alt="homem agendando serviço pelo telefone"
           className="rounded-full w-32 h-32 md:w-64 md:h-64"
+          priority
         />
         <p className="text-xl md:text-2xl">
           <span className="text-yellow-500">
@@ -80,6 +82,7 @@ const Passegers: React.FC<Props> = (props) => {
           src={photo5}
           alt="Motorista treinado e capacitado da we drive"
           className="rounded-full w-32 h-32 md:w-64 md:h-64"
+          priority
         />
         <p className="text-xl md:text-2xl">
           Todos os nossos motoristas são{" "}
