@@ -20,7 +20,7 @@ const Passegers: React.FC<Props> = (props) => {
       <div className="flex md:flex-row flex-col px-12 md:px-56 gap-12 text-white mt-10 items-center justify-center">
         <Image
           src={photo1}
-          alt="We drive background 1"
+          alt="carro novo"
           className="rounded-full w-32 h-32 md:w-64 md:h-64"
         />
         <p className="text-xl md:text-2xl">
@@ -41,7 +41,7 @@ const Passegers: React.FC<Props> = (props) => {
         </p>
         <Image
           src={photo2}
-          alt="We drive background 1"
+          alt="foto de rastreamento veicular"
           priority
           className="rounded-full w-32 h-32 md:w-64 md:h-64 "
         />
@@ -49,7 +49,7 @@ const Passegers: React.FC<Props> = (props) => {
       <div className="flex md:flex-row flex-col px-12 md:px-56 gap-12 text-white mt-10 items-center justify-center">
         <Image
           src={photo3}
-          alt="We drive background 1"
+          alt="homem agendando serviço pelo telefone"
           className="rounded-full w-32 h-32 md:w-64 md:h-64"
         />
         <p className="text-xl md:text-2xl">
@@ -70,7 +70,7 @@ const Passegers: React.FC<Props> = (props) => {
         </p>
         <Image
           src={photo4}
-          alt="We drive background 1"
+          alt="mulher feliz com o serviço"
           priority
           className="rounded-full w-32 h-32 md:w-64 md:h-64 "
         />
@@ -78,7 +78,7 @@ const Passegers: React.FC<Props> = (props) => {
       <div className="flex md:flex-row flex-col px-12 md:px-56 gap-12 text-white mt-10 items-center justify-center">
         <Image
           src={photo5}
-          alt="We drive background 1"
+          alt="Motorista treinado e capacitado da we drive"
           className="rounded-full w-32 h-32 md:w-64 md:h-64"
         />
         <p className="text-xl md:text-2xl">
@@ -96,7 +96,7 @@ const Passegers: React.FC<Props> = (props) => {
         </p>
         <Image
           src={photo6}
-          alt="We drive background 1"
+          alt="cadeirinha de criança automotiva para a segurança"
           priority
           className="rounded-full w-32 h-32 md:w-64 md:h-64 "
         />

@@ -9,7 +9,7 @@ const Wehead: React.FC = () => {
         <Image
           src={header1}
           priority
-          alt="We drive background 1"
+          alt="Mulher ao telefone usando o serviço da we drive feliz"
           className="w-full"
         />
       </div>
