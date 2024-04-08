@@ -1,4 +1,5 @@
 import React from "react";
+import { BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Footer: React.FC = () => {
   return (
@@ -9,14 +10,31 @@ const Footer: React.FC = () => {
           <p>Todos os direitos reservados.</p>
         </div>
         <p className="mt-2">CNPJ: 54.088.912/0001-96</p>
+        <p className="mt-2">e-mail: contato@wedrivebrasil.com.br</p>
       </div>
-      <div className="flex md:flex-row flex-col md:gap-12 mt-16 mb-12 md:mr-12 cols-end-2 justify-self-end">
-        <a href="/" className="hover:underline">
-          Sobre a We Drive
-        </a>
-        <a href="https://linktr.ee/wedrivebrasil" className="hover:underline">
-          Fale conosco
-        </a>
+      <div className="mt-16 mb-12 md:mr-12 cols-end-2 flex justify-self-end flex-col gap-3">
+        <div className=" flex md:flex-row flex-col md:gap-12 ">
+          <a href="/" className="hover:underline">
+            Sobre a We Drive
+          </a>
+          <a href="https://linktr.ee/wedrivebrasil" className="hover:underline">
+            Fale conosco
+          </a>
+        </div>
+        <div className=" flex gap-3 justify-end">
+          <a
+            href=" https://www.instagram.com/wedrivebrasil/"
+            className="hover:underline"
+          >
+            <BsInstagram />
+          </a>
+          <a
+            href=" https://www.instagram.com/wedrivebrasil/"
+            className="hover:underline"
+          >
+            <BsLinkedin />
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -37,15 +37,15 @@ const AboutUs: React.FC<Props> = (props) => {
       </div>
       <div className="mx-auto px-17 p-5 flex flex-col items-center">
         <h3 className="leading-tight max-w-3xl text-white text-center text-2xl tracking-tight mt-6">
-          Serviço de motorista particular por agendamento e pague apenas pela a
-          hora que usar.
+          A forma mais inteligente e segura de ter seu próprio carro+motorista
+          particular, somente nas horas que você realmente usa.
         </h3>
         <div
           className="rounded-md font-semibold flex hover:bg-yellow-500 hover:text-black md:text-base 
           text-sm h-10 w-24 justify-center items-center md:h-12 md:w-32 bg-white mt-6"
         >
           <a href="https://linktr.ee/wedrivebrasil" target="_blank">
-            Agende Aqui
+            Comece aqui
           </a>
         </div>
       </div>
