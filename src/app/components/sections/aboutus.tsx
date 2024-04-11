@@ -1,14 +1,11 @@
-import React from "react";
 import { IoCarSportOutline } from "react-icons/io5";
 import { GiCaptainHatProfile, GiSmartphone } from "react-icons/gi";
 import { BsHeadset } from "react-icons/bs";
 
-type Props = { id: string };
-
-const AboutUs: React.FC<Props> = (props) => {
+export const AboutUs = ({ nav_id }: { nav_id: string }) => {
   return (
     <section
-      id={props.id}
+      id={nav_id}
       className={`flex flex-col text-3xl gap-4 md:text-4xl p-2`}
     >
       <h2 className="text-stone-200 font-semibold text-center">
@@ -52,5 +49,3 @@ const AboutUs: React.FC<Props> = (props) => {
     </section>
   );
 };
-
-export default AboutUs;

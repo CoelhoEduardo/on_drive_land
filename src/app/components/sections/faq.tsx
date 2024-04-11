@@ -1,16 +1,8 @@
-import React from "react";
-import Collapse from "./ui/collapse";
+import Collapse from "../ui/collapse";
 
-type Props = {
-  nav_id: string;
-};
-
-const Drive: React.FC<Props> = (props) => {
+export const Faq = ({ nav_id }: { nav_id: string }) => {
   return (
-    <section
-      id={props.nav_id}
-      className={`flex flex-col text-sm md:text-2xl mt-24`}
-    >
+    <section id={nav_id} className={`flex flex-col text-sm md:text-2xl mt-24`}>
       <div>
         <div className="justify-center flex mt-3 mb-5">
           <h3 className="text-white font-semibold text-2xl md:text-4xl">
@@ -37,5 +29,3 @@ const Drive: React.FC<Props> = (props) => {
     </section>
   );
 };
-
-export default Drive;

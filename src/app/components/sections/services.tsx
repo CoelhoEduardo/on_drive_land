@@ -5,23 +5,18 @@ import photo2 from "/public/images/photo2_2.jpg";
 import photo4 from "/public/images/photo4.jpg";
 import photo5 from "/public/images/photo5.jpg";
 import photo6 from "/public/images/photo6.jpg";
-import React from "react";
 
-type Props = {
-  nav_id: string;
-};
-
-const Passegers: React.FC<Props> = (props) => {
+export const Services = ({ nav_id }: { nav_id: string }) => {
   return (
     <section
-      id={props.nav_id}
+      id={nav_id}
       className={`flex flex-col shrink-0 text-3xl md:text-4xl mt-10 p-2`}
     >
       <div className="flex md:flex-row flex-col px-12 md:px-56 gap-12 text-white mt-10 items-center justify-center">
         <Image
           src={photo1}
           alt="carro novo para sempre atender nossos clientes"
-          className="rounded-full w-32 h-32 md:w-64 md:h-64"
+          className="rounded-full w-32 h-32 md:w-40 md:h-40"
           priority
         />
         <p className="text-xl md:text-2xl">
@@ -44,14 +39,14 @@ const Passegers: React.FC<Props> = (props) => {
           src={photo2}
           alt="foto de rastreamento veicular"
           priority
-          className="rounded-full w-32 h-32 md:w-64 md:h-64 "
+          className="rounded-full w-32 h-32 md:w-40 md:h-40 "
         />
       </div>
       <div className="flex md:flex-row flex-col px-12 md:px-56 gap-12 text-white mt-10 items-center justify-center">
         <Image
           src={photo3}
           alt="homem agendando serviço pelo telefone"
-          className="rounded-full w-32 h-32 md:w-64 md:h-64"
+          className="rounded-full w-32 h-32 md:w-40 md:h-40"
           priority
         />
         <p className="text-xl md:text-2xl">
@@ -74,14 +69,14 @@ const Passegers: React.FC<Props> = (props) => {
           src={photo4}
           alt="mulher feliz com o serviço"
           priority
-          className="rounded-full w-32 h-32 md:w-64 md:h-64 "
+          className="rounded-full w-32 h-32 md:w-40 md:h-40 "
         />
       </div>
       <div className="flex md:flex-row flex-col px-12 md:px-56 gap-12 text-white mt-10 items-center justify-center">
         <Image
           src={photo5}
           alt="Motorista treinado e capacitado da we drive"
-          className="rounded-full w-32 h-32 md:w-64 md:h-64"
+          className="rounded-full w-32 h-32 md:w-40 md:h-40"
           priority
         />
         <p className="text-xl md:text-2xl">
@@ -101,11 +96,9 @@ const Passegers: React.FC<Props> = (props) => {
           src={photo6}
           alt="cadeirinha de criança automotiva para a segurança"
           priority
-          className="rounded-full w-32 h-32 md:w-64 md:h-64 "
+          className="rounded-full w-32 h-32 md:w-40 md:h-40 "
         />
       </div>
     </section>
   );
 };
-
-export default Passegers;

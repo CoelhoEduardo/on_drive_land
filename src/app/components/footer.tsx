@@ -10,7 +10,6 @@ const Footer: React.FC = () => {
           <p>Todos os direitos reservados.</p>
         </div>
         <p className="mt-2">CNPJ: 54.088.912/0001-96</p>
-        <p className="mt-2">e-mail: contato@wedrivebrasil.com.br</p>
       </div>
       <div className="mt-16 mb-12 md:mr-12 cols-end-2 flex justify-self-end flex-col gap-3">
         <div className=" flex md:flex-row flex-col md:gap-12 ">
