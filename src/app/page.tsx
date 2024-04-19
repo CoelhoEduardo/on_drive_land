@@ -1,6 +1,7 @@
 import { Faq, Services, AboutUs } from "./components/sections";
 import Image from "next/image";
 import header1 from "/public/images/header_desk.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -27,12 +28,12 @@ export default function Home() {
             text-sm h-10 w-32 md:h-12 md:w-38 md:text-white justify-center items-center 
             md:bg-black md:mt-6 mt-3"
             >
-              <a
+              <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdxcVqNGX3JQ6ZCOx1zxVoGPLrWnYlmWtzucEiOqeDPUqcjng/viewform"
                 target="_blank"
               >
                 Contrate
-              </a>
+              </Link>
             </div>
           </div>
         </div>

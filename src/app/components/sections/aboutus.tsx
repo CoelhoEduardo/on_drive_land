@@ -1,6 +1,7 @@
 import { IoCarSportOutline } from "react-icons/io5";
-import { GiCaptainHatProfile, GiSmartphone } from "react-icons/gi";
+import { GiCaptainHatProfile } from "react-icons/gi";
 import { BsHeadset } from "react-icons/bs";
+import Link from "next/link";
 
 export const AboutUs = ({ nav_id }: { nav_id: string }) => {
   return (
@@ -41,9 +42,12 @@ export const AboutUs = ({ nav_id }: { nav_id: string }) => {
           className="rounded-md font-semibold flex md:hover:bg-yellow-500 md:hover:text-black md:text-base 
           text-sm h-12 w-32 justify-center items-center md:h-12 md:w-32 bg-white mt-6"
         >
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxcVqNGX3JQ6ZCOx1zxVoGPLrWnYlmWtzucEiOqeDPUqcjng/viewform" target="_blank">
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdxcVqNGX3JQ6ZCOx1zxVoGPLrWnYlmWtzucEiOqeDPUqcjng/viewform"
+            target="_blank"
+          >
             Comece aqui
-          </a>
+          </Link>
         </div>
       </div>
     </section>

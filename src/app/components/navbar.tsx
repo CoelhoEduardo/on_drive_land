@@ -2,6 +2,7 @@
 import Image from "next/image";
 import logo from "/public/images/logo.png";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export const NavBar = () => {
   function classNames(...classes: string[]) {
@@ -21,26 +22,26 @@ export const NavBar = () => {
     <nav className="bg-white fixed left-0 z-10 w-full backdrop-blur-md top-0">
       <div className={"p-5 flex gap-5 ml-16"}>
         <div className="w-36">
-          <a href="/">
+          <Link href="/">
             <Image src={logo} alt="we drive logo" />
-          </a>
+          </Link>
         </div>
         <div className="gap-16 mt-3 ml-5 md:flex hidden font-semibold">
-          <a href="#about_us" className="md:hover:text-black">
+          <Link href="#about_us" className="md:hover:text-black">
             Sobre nós
-          </a>
-          <a href="#services" className="md:hover:text-black">
+          </Link>
+          <Link href="#services" className="md:hover:text-black">
             Serviços
-          </a>
-          <a href="#faq" className="md:hover:text-black">
+          </Link>
+          <Link href="#faq" className="md:hover:text-black">
             FAQ
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://linktr.ee/wedrivebrasil"
             className="md:hover:text-black"
           >
             Contrate
-          </a>
+          </Link>
         </div>
       </div>
       <div className="border-black border" />

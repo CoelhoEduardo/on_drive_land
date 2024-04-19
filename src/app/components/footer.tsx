@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { FiPhone } from "react-icons/fi";
@@ -45,29 +46,29 @@ const Footer: React.FC = () => {
         </div>
         <div className="mt-6 md:mr-12 cols-end-2 flex justify-self-end flex-col gap-3">
           <div className="text-sm md:text-base flex md:flex-row text-end flex-col gap-3 md:gap-12 ">
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               Sobre a We Drive
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://linktr.ee/wedrivebrasil"
               className="hover:underline"
             >
               Fale conosco
-            </a>
+            </Link>
           </div>
           <div className="mr-3 flex gap-3 justify-end">
-            <a
+            <Link
               href=" https://www.instagram.com/wedrivebrasil/"
               className="hover:underline"
             >
               <BsInstagram />
-            </a>
-            <a
+            </Link>
+            <Link
               href=" https://www.linkedin.com/company/we-drive-brasil/"
               className="hover:underline"
             >
               <BsLinkedin />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
