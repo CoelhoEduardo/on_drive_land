@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <Head>
+        <meta name="keywords" content="motorista-particular, motorista, serviços, motorista particular, agendamentos, we drive" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={metadata.title?.toString()} />
         <meta
