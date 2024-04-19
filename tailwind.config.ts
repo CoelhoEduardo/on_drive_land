@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import imageRendering from "tailwindcss-image-rendering";
+import filters from "tailwindcss-filters";
 
 const config: Config = {
   content: [
@@ -8,6 +10,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      imageRendering: {
+        'crisp-edges': 'crip-edges',
+      },
+      filter: {
+        'contrast-150': 'consrast(150%)',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +23,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    imageRendering,
+    filters,
+  ],
 };
 export default config;

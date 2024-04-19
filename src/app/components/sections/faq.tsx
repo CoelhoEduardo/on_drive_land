@@ -2,10 +2,10 @@ import Collapse from "../ui/collapse";
 
 export const Faq = ({ nav_id }: { nav_id: string }) => {
   return (
-    <section id={nav_id} className={`flex flex-col text-sm md:text-2xl mt-24`}>
+    <section id={nav_id} className={`flex flex-col text-sm md:text-xl mt-24 mb-32`}>
       <div>
         <div className="justify-center flex mt-3 mb-5">
-          <h3 className="text-white font-semibold text-2xl md:text-4xl">
+          <h3 className="text-white font-semibold text-xl md:text-3xl">
             Dúvidas frequentes
           </h3>
         </div>
@@ -16,10 +16,6 @@ export const Faq = ({ nav_id }: { nav_id: string }) => {
         <Collapse
           question="Qual(is) a(s) forma(s) de pagamento aceita?"
           ans="Os mensalistas vão receber um link para cadastro e pagamento via cartão de crédito. A contratação avulsa pode ser paga em pix ou cartão de crédito."
-        />
-        <Collapse
-          question="A We Drive possui seguro ?"
-          ans="Sim. Você pode pedir nossa apólice de seguro vigente pelo canal de atendimento do whatsapp."
         />
         <Collapse
           question="Qual o tempo mínimo que eu posso agendar um motorista?"
