@@ -1,4 +1,4 @@
-import {Faq, Services, AboutUs} from "./components/sections";
+import { Faq, Services, AboutUs } from "./components/sections";
 import Image from "next/image";
 import header1 from "/public/images/header_desk.jpg";
 
@@ -21,8 +21,16 @@ export default function Home() {
               <br className="md:hidden" /> por uma{" "}
               <span className="font-bold">fração de custo</span>.
             </h1>
-            <div className="bg-gray-200 text-black rounded-md flex font-semibold md:hover:bg-white md:hover:text-black md:text-xl text-sm h-10 w-32 md:h-12 md:w-38 md:text-white justify-center items-center md:bg-black md:mt-6">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxcVqNGX3JQ6ZCOx1zxVoGPLrWnYlmWtzucEiOqeDPUqcjng/viewform" target="_blank">
+            <div
+              className="bg-gray-200 text-black rounded-md flex 
+            font-semibold md:hover:bg-white md:hover:text-black md:text-xl 
+            text-sm h-10 w-32 md:h-12 md:w-38 md:text-white justify-center items-center 
+            md:bg-black md:mt-6 mt-3"
+            >
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdxcVqNGX3JQ6ZCOx1zxVoGPLrWnYlmWtzucEiOqeDPUqcjng/viewform"
+                target="_blank"
+              >
                 Contrate
               </a>
             </div>
