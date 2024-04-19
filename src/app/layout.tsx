@@ -8,7 +8,7 @@ import Head from "next/head";
 export const metadata: Metadata = {
   title: "Motorista Particular por uma fração de custo | We Drive",
   description:
-    "We Drive oferece serviços de motorista particular por agendamento. Desfrute de uma viagem segura e confortável com nossos motoristas profissionais e veículos de alta qualidade. Agende sua viagem conosco hoje!",
+    "Agende sua viagem com motoristas particulares profissionais da We Drive. Segurança e conforto em cada trajeto. Programe sua rotina com a gente hoje!",
   robots: "index, follow",
   verification: { code: "123456789" } as Verification,
 };
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={metadata.title?.toString()} />
