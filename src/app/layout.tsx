@@ -6,8 +6,9 @@ import { Verification } from "next/dist/lib/metadata/types/metadata-types";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "We Drive - Motorista Particular",
-  description: "Motorista particular por agendamento",
+  title: "Motorista Particular por uma fração de custo | We Drive",
+  description:
+    "We Drive oferece serviços de motorista particular por agendamento. Desfrute de uma viagem segura e confortável com nossos motoristas profissionais e veículos de alta qualidade. Agende sua viagem conosco hoje!",
   robots: "index, follow",
   verification: { code: "123456789" } as Verification,
 };
@@ -20,7 +21,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <meta name='viewport' content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content={metadata.title?.toString()} />
+        <meta
+          property="og:description"
+          content={metadata.description?.toString()}
+        />
+        <meta
+          property="og:image"
+          content="https://www.wedrivebrasil.com/images/header_desk.jpg"
+        />
+        <meta property="og:url" content="https://www.wedrivebrasil.com/" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.wedrivebrasil.com/" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className={"bg-stone-900"}>
         <NavBar />

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.wedrivebrasil.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wedrivebrasil.com/#services/</loc>
+    <image:image>
+      <image:loc>https://www.wedrivebrasil.com/images/new_car.jpg</image:loc>
+      <image:caption>Description of image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.wedrivebrasil.com/images/track_phone.jpg</image:loc>
+      <image:caption>Description of image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.wedrivebrasil.com/images/new_book.jpg</image:loc>
+      <image:caption>Description of image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.wedrivebrasil.com/images/time_photo.jpg</image:loc>
+      <image:caption>Description of image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.wedrivebrasil.com/images/photo5.jpg</image:loc>
+      <image:caption>Description of image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.wedrivebrasil.com/images/photo6.jpg</image:loc>
+      <image:caption>Description of image</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.wedrivebrasil.com/#contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.wedrivebrasil.com/#about_us/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.wedrivebrasil.com/#faq/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

@@ -5,9 +5,9 @@ export const Faq = ({ nav_id }: { nav_id: string }) => {
     <section id={nav_id} className={`flex flex-col text-sm md:text-xl mt-24 mb-32`}>
       <div>
         <div className="justify-center flex mt-3 mb-5">
-          <h3 className="text-white font-semibold text-xl md:text-3xl">
+          <h2 className="text-white font-semibold text-xl md:text-3xl">
             Dúvidas frequentes
-          </h3>
+          </h2>
         </div>
         <Collapse
           question="Posso usar o motorista da We Drive para uma viagem esporádica?"

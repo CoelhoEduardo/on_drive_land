@@ -29,7 +29,7 @@ export const NavBar = () => {
           <a href="#about_us" className="md:hover:text-black">
             Sobre nós
           </a>
-          <a href="#product" className="md:hover:text-black">
+          <a href="#services" className="md:hover:text-black">
             Serviços
           </a>
           <a href="#faq" className="md:hover:text-black">

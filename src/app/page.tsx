@@ -41,7 +41,7 @@ export default function Home() {
         <div className="space-y-12">
           <div className="flex flex-col h-full items-center">
             <AboutUs nav_id="about_us" />
-            <Services nav_id="product" />
+            <Services nav_id="services" />
             <Faq nav_id="faq" />
           </div>
         </div>

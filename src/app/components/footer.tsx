@@ -15,14 +15,14 @@ const Footer: React.FC = () => {
           >
             <div className="md:flex gap-1 text-gray-900">
               <IoCar className="mt-1"/>
-              <h1>
-                <span itemProp="name">We Drive</span>
-              </h1>
               <h2>
+                <span itemProp="name">We Drive</span>
+              </h2>
+              <h3>
                 <span itemProp="alternateName">
                   - Motorista particular por uma fração de custo!
                 </span>
-              </h2>
+              </h3>
             </div>
             <span
               itemProp="address"
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="border-t mt-3 border-gray-700 flex justify-center items-center">
         <div className="flex gap-2 mt-3 mb-10">
-          <h1>We Drive Brasil Ltda. </h1>
+          <h2>We Drive Brasil Ltda. </h2>
           <p>Todos os direitos reservados.</p>
         </div>
       </div>
