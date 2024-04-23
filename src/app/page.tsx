@@ -50,7 +50,7 @@ export default function Home() {
             <FloatingWhatsApp
               chatMessage="Ola! Digite sua mensagem e você será direcionado para um de nossos atendentes."
               statusMessage="Bem-vindo! Como podemos ajudar?"
-              phoneNumber="11987176109"
+              phoneNumber="+5511987176109"
               accountName="We Drive"
               allowEsc
               notification
