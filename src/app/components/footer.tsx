@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             className="flex flex-col gap-3"
           >
             <div className="md:flex gap-1 text-gray-900">
-              <IoCar className="mt-1"/>
+              <IoCar className="mt-1" />
               <h2>
                 <span itemProp="name">We Drive</span>
               </h2>
@@ -37,10 +37,8 @@ const Footer: React.FC = () => {
               <span itemProp="addressRegion">SP</span>
             </span>
             <div className="md:flex gap-1">
-              <FiPhone />Telefone:{" "}
-              <span itemProp="telephone">
-                (11) 99982-2654 | (11) 98717-6109
-              </span>
+              <FiPhone />
+              Telefone: <span itemProp="telephone">(11) 910448585</span>
             </div>
           </div>
         </div>
@@ -49,10 +47,7 @@ const Footer: React.FC = () => {
             <Link href="/" className="hover:underline">
               Sobre a We Drive
             </Link>
-            <Link
-              href="https://linktr.ee/wedrivebrasil"
-              className="hover:underline"
-            >
+            <Link href="/fale-conosco" className="hover:underline">
               Fale conosco
             </Link>
           </div>

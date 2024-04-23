@@ -1,7 +1,10 @@
+"use client";
+
 import { Faq, Services, AboutUs } from "./components/sections";
 import Image from "next/image";
 import header1 from "/public/images/header_desk.jpg";
 import Link from "next/link";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 export default function Home() {
   return (
@@ -44,6 +47,15 @@ export default function Home() {
             <AboutUs nav_id="about_us" />
             <Services nav_id="services" />
             <Faq nav_id="faq" />
+            <FloatingWhatsApp
+              chatMessage="Ola! Digite sua mensagem e você será direcionado para um de nossos atendentes."
+              statusMessage="Bem-vindo! Como podemos ajudar?"
+              phoneNumber="11987176109"
+              accountName="We Drive"
+              allowEsc
+              notification
+              notificationSound
+            />
           </div>
         </div>
       </div>

@@ -42,6 +42,12 @@ export const NavBar = () => {
           >
             Contrate
           </Link>
+          <Link
+            href="/fale-conosco"
+            className="md:hover:text-black"
+          >
+            Fale Conosco
+          </Link>
         </div>
       </div>
       <div className="border-black border" />
