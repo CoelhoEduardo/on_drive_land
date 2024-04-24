@@ -37,7 +37,7 @@ export const NavBar = () => {
             FAQ
           </Link>
           <Link
-            href="https://linktr.ee/wedrivebrasil"
+            href="https://api.whatsapp.com/send/?phone=5511910448585&text=Tenho%20interesse%20em%20contratar%20o%20serviço%20da%20WeDrive&type=phone_number&app_absent=0"
             className="md:hover:text-black"
           >
             Contrate

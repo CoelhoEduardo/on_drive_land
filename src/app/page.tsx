@@ -32,7 +32,7 @@ export default function Home() {
             md:bg-black md:mt-6 mt-3"
             >
               <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdxcVqNGX3JQ6ZCOx1zxVoGPLrWnYlmWtzucEiOqeDPUqcjng/viewform"
+                href="https://api.whatsapp.com/send/?phone=5511910448585&text=Tenho%20interesse%20em%20contratar%20o%20serviço%20da%20WeDrive&type=phone_number&app_absent=0"
                 target="_blank"
               >
                 Contrate
@@ -50,7 +50,7 @@ export default function Home() {
             <FloatingWhatsApp
               chatMessage="Ola! Digite sua mensagem e você será direcionado para um de nossos atendentes."
               statusMessage="Bem-vindo! Como podemos ajudar?"
-              phoneNumber="+5511987176109"
+              phoneNumber="+5511910448585"
               accountName="We Drive"
               allowEsc
               notification

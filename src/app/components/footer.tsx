@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { BsInstagram, BsLinkedin } from "react-icons/bs";
-import { FiPhone } from "react-icons/fi";
+import { BsInstagram, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { IoCar, IoLocation } from "react-icons/io5";
 
 const Footer: React.FC = () => {
@@ -37,8 +36,8 @@ const Footer: React.FC = () => {
               <span itemProp="addressRegion">SP</span>
             </span>
             <div className="md:flex gap-1">
-              <FiPhone />
-              Telefone: <span itemProp="telephone">(11) 910448585</span>
+              <BsWhatsapp />
+              Whatsapp: <span itemProp="telephone">(11) 910448585</span>
             </div>
           </div>
         </div>

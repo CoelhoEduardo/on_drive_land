@@ -43,7 +43,7 @@ export const AboutUs = ({ nav_id }: { nav_id: string }) => {
           text-sm h-12 w-32 justify-center items-center md:h-12 md:w-32 bg-white mt-6"
         >
           <Link
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdxcVqNGX3JQ6ZCOx1zxVoGPLrWnYlmWtzucEiOqeDPUqcjng/viewform"
+            href="https://api.whatsapp.com/send/?phone=5511910448585&text=Tenho%20interesse%20em%20contratar%20o%20serviço%20da%20WeDrive&type=phone_number&app_absent=0"
             target="_blank"
           >
             Comece aqui
