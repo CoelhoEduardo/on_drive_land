@@ -27,17 +27,17 @@ export const NavBar = () => {
           </Link>
         </div>
         <div className="gap-16 mt-3 ml-5 md:flex hidden font-semibold">
-          <Link href="#about_us" className="md:hover:text-black">
+          <Link href="/#about_us" className="md:hover:text-black">
             Sobre nós
           </Link>
-          <Link href="#services" className="md:hover:text-black">
+          <Link href="/#services" className="md:hover:text-black">
             Serviços
           </Link>
-          <Link href="#faq" className="md:hover:text-black">
+          <Link href="/#faq" className="md:hover:text-black">
             FAQ
           </Link>
           <Link
-            href="https://api.whatsapp.com/send/?phone=5511910448585&text=Tenho%20interesse%20em%20contratar%20o%20serviço%20da%20WeDrive&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=5511910448585&text=Ola,%20tenho%20interesse%20em%20contratar%20o%20serviço%20da%20WeDrive&type=phone_number&app_absent=0"
             className="md:hover:text-black"
           >
             Contrate

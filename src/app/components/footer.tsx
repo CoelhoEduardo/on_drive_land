@@ -37,7 +37,9 @@ const Footer: React.FC = () => {
             </span>
             <div className="md:flex gap-1">
               <BsWhatsapp />
-              Whatsapp: <span itemProp="telephone">(11) 910448585</span>
+              <Link href={"https://api.whatsapp.com/send/?phone=5511910448585&text&type=phone_number&app_absent=0"}>
+              <span itemProp="telephone">(11) 910448585</span>
+              </Link>
             </div>
           </div>
         </div>
