@@ -23,7 +23,7 @@ export const AboutUs = ({ nav_id }: { nav_id: string }) => {
         <div className="flex flex-col items-center">
           <IoCarSportOutline className="text-yellow-500" />
           <p className="text-lg text-white text-center">
-            Carros novos e confortáveis <br /> com até 20.000km rodados.
+            Carros novos e confortáveis <br /> para maior segurança de nossos clientes.
           </p>
         </div>
         <div className="flex flex-col items-center">

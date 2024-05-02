@@ -2,8 +2,8 @@ import Image from "next/image";
 import photo3 from "/public/images/new_book.jpg";
 import photo1 from "/public/images/new_car.jpg";
 import photo2 from "/public/images/track_phone.jpg";
-import photo4 from "/public/images/time_photo.jpg";
-import photo5 from "/public/images/photo5.jpg";
+import photo4 from "/public/images/happy-couple-posing-studio.jpg";
+import photo5 from "/public/images/driver.jpg";
 import photo6 from "/public/images/photo6.jpg";
 
 export const Services = ({ nav_id }: { nav_id: string }) => {
@@ -75,7 +75,7 @@ export const Services = ({ nav_id }: { nav_id: string }) => {
         <Image
           src={photo5}
           alt="Motorista treinado e capacitado da we drive"
-          className="rounded-full w-32 h-32 md:w-44 md:h-44 image-rendering[crisp-edges] filter[contrast-150]"
+          className="rounded-full w-32 h-32 md:w-44 md:h-44 image-rendering[crisp-edges] filter[contrast-150] object-cover"
           priority
         />
         <p className="text-xl md:text-2xl">
